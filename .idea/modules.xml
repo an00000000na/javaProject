@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ptLearn.iml" filepath="$PROJECT_DIR$/ptLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptLearn-backend/ptLearn-backend.iml" filepath="$PROJECT_DIR$/ptLearn-backend/ptLearn-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptlearn-ui/ptlearn-ui.iml" filepath="$PROJECT_DIR$/ptlearn-ui/ptlearn-ui.iml" />
+    </modules>
+  </component>
+</project>
