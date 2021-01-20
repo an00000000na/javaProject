@@ -1,5 +1,7 @@
 <template>
 <div>
+  <input type="text" v-model="nuevafruta" >
+  <button @click="agregarFruta"> Diste click</button>
  <b-table striped hover :items="words" :fields="fields"></b-table>
 </div>
 </template>
@@ -11,6 +13,7 @@ export default {
   data () {
     return {
       // content: '',
+      nuevafruta: '',
       words: [{
         id: '',
         en: '',
@@ -23,6 +26,11 @@ export default {
         { key: 'pt', label: 'Portuguese' },
         { key: 'difficulty', label: 'Level' }
       ]
+    }
+  },
+  methods: {
+    agregarFruta () {
+      console.log('diste click')
     }
   },
   mounted () {

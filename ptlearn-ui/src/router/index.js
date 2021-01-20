@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Word from '../views/Word.vue'
 import Card from '../views/Card'
 import Base from '../views/Base'
-import NewWord from '../views/NewWord'
+import Lobby from '../views/Lobby'
 
 Vue.use(VueRouter)
 
@@ -13,16 +12,6 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
-  },
-  {
-    path: '/word',
-    name: 'Word',
-    component: Word
-  },
-  {
-    path: '/new',
-    name: 'New',
-    component: NewWord
   },
   {
     path: '/about',
@@ -36,6 +25,11 @@ const routes = [
     path: '/base',
     name: 'Base',
     component: Base
+  },
+  {
+    path: '/lobby',
+    name: 'Lobby',
+    component: Lobby
   },
   {
     path: '/card',

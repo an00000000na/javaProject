@@ -35,7 +35,7 @@ class WordsService {
   }
 
   saveWord (form) {
-    return axios.post(API_URL + '/save/word',
+    return axios.post(API_URL + '/save/words',
       {
         en: form.en,
         pt: form.pt,

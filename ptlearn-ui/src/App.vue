@@ -3,10 +3,9 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/word">Word</router-link> |
       <router-link to="/card">Card</router-link> |
-    <router-link to="/base">Base</router-link>
-<!--      <router-link to="/new">NewWord</router-link>-->
+      <router-link to="/base">Base</router-link> |
+      <router-link to="/lobby">Lobby</router-link>
     </div>
     <router-view/>
   </div>
